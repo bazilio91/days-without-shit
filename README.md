@@ -7,7 +7,7 @@ A Telegram bot that tracks days since the last reset for each chat/channel and s
 - Track days since last reset for each chat separately
 - Daily sticker notifications at 12:00
 - Different stickers for 0, 1, 2, and 3 days
-- Simple commands: `/start`, `/reset`, `/days`
+- Simple commands: `/shit_start`, `/shit_reset`, `/shit_days`
 
 ## Setup
 
@@ -23,7 +23,7 @@ A Telegram bot that tracks days since the last reset for each chat/channel and s
 You need 4 different stickers for different day counts. Here's how to get their IDs:
 
 1. Create your sticker pack or choose existing stickers
-2. Send each sticker to [@@RawDataBot](https://t.me/RawDataBot)
+2. Send each sticker to [@RawDataBot](https://t.me/RawDataBot)
 3. The bot will reply with sticker information including the File ID
 4. Copy the File IDs and replace them in `main.go`:
 
@@ -105,3 +105,7 @@ To keep the bot running continuously, you can set it up as a systemd service:
 ## State Storage
 
 The bot stores its state in `state.json` in the same directory as the executable. Make sure the directory is writable by the bot process.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
